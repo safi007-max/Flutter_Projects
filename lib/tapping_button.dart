@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text('Tap to Increase Number'),
         centerTitle: true, // Center the title in the AppBar
+        backgroundColor: Colors.blue,
       ),
       body: Center(
         child: GestureDetector(

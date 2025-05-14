@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
 
   // Constructor that takes a title and passes the key to the super class
   // ❗ BUG: 'Key key' and 'this.title' should be changed for null safety
- const MyHomePage({Key? key, required this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   // A final variable to hold the title of the page
   final String title;
